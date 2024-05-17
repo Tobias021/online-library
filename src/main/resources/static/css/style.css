@@ -1,0 +1,60 @@
+body {
+    background-color: #746a53;
+    }
+
+.wrapper{
+    align-content: center;
+    align-self: center;
+    align-items:center;
+    width: auto;
+}
+
+.wrapper img {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.fun{
+    position: absolute;
+    top: 60px;
+    left: 40%;
+    justify-items: center;
+}
+
+.title{
+    border-bottom: 3px solid wheat;
+    color: 2#dbcaa3;
+}
+
+.vrsek{
+    place-items: center stretch;
+    overflow: hidden;
+    height: 292px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+ }
+
+.vrsek img{
+    clip-path: inset(0 0 336px 0);
+    margin: auto;
+}
+
+.policka{
+    place-items: center stretch;
+    overflow: hidden;
+    height: 105px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.policka img{
+    position: relative;
+    transform: translateY(-292px);
+    clip-path: inset(292px 0 230px 0);
+    margin:auto;
+}
